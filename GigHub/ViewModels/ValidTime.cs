@@ -13,7 +13,7 @@ namespace GigHub.ViewModels
             var enUs = new CultureInfo("en-US");
 
             var isValid = DateTime.TryParseExact(Convert.ToString(value),
-                "Hh:mm",
+                "HH:mm",
                 enUs,
                 DateTimeStyles.None,
                 out dateTime);
