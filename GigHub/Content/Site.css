@@ -1,4 +1,5 @@
 ﻿body {
+    font-family: "Lato", sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -50,4 +51,32 @@ textarea {
     color: #5bc0de;
     font-weight: bold;
 }
+.navbar-inverse .navbar-brand:visited {
+    color: #5bc0de;
+    font-weight: bold;
+}
 
+.form-control {
+    border: 1px solid #5bc0de;
+    -ms-border-radius: 11px;
+    border-radius: 11px;
+    height: 48px;
+    padding: 12px 17px;
+
+}
+
+.btn {
+    padding: 11px 19px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.field-validation-error {
+    color: red;
+}
+
+label {
+    margin-bottom: 11px;
+}
